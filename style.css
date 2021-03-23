@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1024px;
+  margin: auto;
+  background-color: black;
+}
+.title1 {
+  color: white;
+  padding-left: 90px;
+  padding-top: 20px;
+  font-size: 50px;
+  min-width: 60px;
+}
+.h2 {
+  color: white;
+  padding-left: 0px;
+}
+.h3 {
+  color: white;
+  padding-top: 10px;
+}
+.h4 {
+  color: white;
+  padding-left: 10px;
+}
+/* Div для карточки продуктов */
+.divProduct {
+  position: relative;
+  width: 250px;
+  min-height: 20px;
+  background-color: #ddd;
+  margin: 0px;
+  border: 3px solid orange;
+  border-radius: 10px;
+  background-color: rgb(111, 90, 3);
+}
+/* Картинка в карточке */
+.pictureProduct {
+  border: 1px solid orange;
+  border-radius: 8px;
+  width: 248px;
+  height: 150px;
+}
+/* Кнопки для выбора программ */
+.btnProduct {
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px 5px;
+  border: none;
+  width: 115px;
+  font-size: 13px;
+}
+/* Div для таймера обратного отсчёта */
+.divCountdown_timer {
+  position: relative;
+  width: 214px;
+  min-height: 330px;
+  color: white;
+  margin: 0px;
+  padding: 15px;
+  border: 3px solid orange;
+  border-radius: 10px;
+  background-color: rgb(111, 90, 3);
+}
+/* Div для калькулятора дат */
+.divCalc {
+  position: relative;
+  width: 214px;
+  min-height: 330px;
+  color: white;
+  margin: 0px;
+  padding: 15px;
+  border: 3px solid orange;
+  border-radius: 10px;
+  background-color: rgb(111, 90, 3);
+}
+/* Кнопка Пуск */
+.start_countdown_timer {
+  outline: none;
+  background-color: green;
+  border: 1px solid orange;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  margin-top: 15px;
+  width: 195px;
+}
+/* Кнопка Пауза */
+.pause_countdown_timer {
+  outline: none;
+  background-color: blue;
+  border: 1px solid orange;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  margin-top: 15px;
+  width: 195px;
+}
+/* Кнопка Стоп */
+.stop_countdown_timer {
+  outline: none;
+  background-color: red;
+  border: 1px solid orange;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  margin-top: 15px;
+  width: 195px;
+}
+/* Кнопка Очистить */
+.btnClear {
+  outline: none;
+  background-color: orchid;
+  border: 1px solid orange;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  width: 97px;
+}
+.transparent {
+  background-color: transparent;
+  color: transparent;
+}
+.hidden {
+  display: none;
+}
